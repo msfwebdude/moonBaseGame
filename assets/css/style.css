@@ -1,0 +1,25 @@
+body {
+    background-color: #222;
+}
+
+.infoTab {
+  position: absolute; 
+  right: 32px; 
+  top: 32px; 
+  background-color: beige; 
+  width: 28px; 
+  height: 28px; 
+  opacity: 0.25;
+  transition-duration: 0.3s;
+  padding-left: 4px;
+  padding-top: 4px;
+  border-radius: 16px;
+}
+
+.infoTab:hover {
+  opacity: 1;
+}
+
+.infoTab img {
+  width: 24px;
+}
