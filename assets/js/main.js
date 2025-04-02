@@ -1451,7 +1451,7 @@
       }
     );
     loadSprite('ddu', 
-      './assets/img/drone-deployment-sheet-v1.png', 
+      './assets/img/drone-deployment-sheet-v2.png', 
       {
         sliceX: 12,
         anims: {
