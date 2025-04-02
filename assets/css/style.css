@@ -6,10 +6,10 @@ body {
   position: absolute; 
   right: 32px; 
   top: 32px; 
-  background-color: beige; 
+  background-color: #f0f8ff; 
   width: 28px; 
   height: 28px; 
-  opacity: 0.25;
+  opacity: 0.15;
   transition-duration: 0.3s;
   padding-left: 4px;
   padding-top: 4px;
