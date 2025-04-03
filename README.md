@@ -2,6 +2,9 @@
 
 **Moon Base Defense** is a work-in-progress game where you build and defend a moon base from enemy attacks. The game is being developed using the [Kaplay JS Engine](https://kaplayjs.com/) and features base-building, resource management, and strategic defense mechanics.
 
+## Try it out
+try it here => [moonBaseGame](https://msfwebdude.github.io/moonBaseGame/)
+
 ## Game play
 - 🌕 Build and expand your moon base  
 - 🏗️ Manage resources and infrastructure  
