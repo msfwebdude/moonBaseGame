@@ -1323,7 +1323,7 @@
       }
     );
     loadSprite('mcv', 
-      './assets/img/mobile-command-vehicle-v1.png', 
+      './assets/img/mobile-command-vehicle-v2.png', 
       {
         sliceX: 3,
         anims: {
