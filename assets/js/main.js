@@ -28,6 +28,21 @@
     
   add( [ sprite('bck', { width: width(), height: height() } ) ] )
 
+  scene(
+    "gameover",
+    () => {
+      setBackground(33, 0, 0 );
+      add(
+        [
+          text("Your base has been detroyed.", { size: 12, font: 'sans-serif' } ),
+          pos(center())
+        ]
+      );
+      onMousePress(() => { location.reload(); });
+    }
+  );
+
+
   var doTween = (obj, toLocation) => {
     if (obj.curTween) obj.curTween.cancel();
 
@@ -75,6 +90,10 @@
   };
 
   var removeFromDeployment = (obj) => {
+    if (obj.tags[0] == 'mobileFactory') {
+      go("gameover")
+      return;
+    }
     var idx = deployment.findIndex(i => i.identity == obj.identity)
     if (idx > 0) deployment.splice(idx, 1);
   }
