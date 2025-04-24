@@ -34,8 +34,8 @@
       setBackground(33, 0, 0 );
       add(
         [
-          text("Your base has been detroyed.", { size: 12, font: 'sans-serif' } ),
-          pos(center())
+          text("Your base has been destroyed.", { size: 12, font: 'sans-serif', width: 180 } ),
+          pos(center().sub(vec2(90,0)))
         ]
       );
       onMousePress(() => { location.reload(); });
