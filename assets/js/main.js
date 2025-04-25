@@ -34,6 +34,13 @@
       setBackground(33, 0, 0 );
       add(
         [
+          sprite('fr4', { anim: 'main' }),
+          opacity(0.5),
+          pos(center().sub(vec2(252,252)))
+        ]
+      );
+      add(
+        [
           text("Your base has been destroyed.", { size: 12, font: 'sans-serif', width: 180 } ),
           pos(center().sub(vec2(90,0)))
         ]
@@ -1379,6 +1386,20 @@
     );
     loadSprite('bck', 
       './assets/img/moon-landscape-background-lite-v2.png'
+    );
+    loadSprite('fr4',
+      './assets/img/tire-fire-blue-pixel-4x-sprite-sheet-v1.png',
+      {
+        sliceX: 8,
+        anims: { 'main': { from: 0, to: 7, speed: 5, loop: true } }
+      }
+    );
+    loadSprite('fr8',
+      './assets/img/tire-fire-blue-pixel-8x-sprite-sheet-v1.png',
+      {
+        sliceX: 8,
+        anims: { 'main': { from: 0, to: 7, speed: 5, loop: true } }
+      }
     );
     loadSprite('tur', 
       './assets/img/turret-sprite-sheet-v2.png', 
